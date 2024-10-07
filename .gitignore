@@ -1,5 +1,15 @@
-.DS_Store
-.vs
-.idea
+# Ігнорування конфігураційних файлів для IntelliJ IDEA
+.idea/
+*.iml
+
+# Ігнорування конфігураційних файлів для Eclipse
 .project
-.vscode
+.classpath
+.settings/
+
+# Ігнорування конфігураційних файлів для Visual Studio Code
+.vscode/
+
+# Загальні ігноровані файли для IDE
+.DS_Store
+Thumbs.db
